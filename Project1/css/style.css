@@ -1,0 +1,50 @@
+.test{
+    color: #0c5460;
+    font-weight: bold;
+}
+.content span{
+    color: #a71d2a;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#content{
+    color: maroon;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+article p{
+    color: indigo;
+}
+
+aside + p{
+    background-color: hotpink;
+}
+
+header ~ p{
+    background-color: #ed969e;
+}
+
+.hvr{
+    border-radius: 5px;
+    text-align: center;
+    color: #ed969e;
+    width: 400px;
+    height: 40px;
+    text-decoration: none;
+    background-color: #a71d2a;
+}
+
+.hvr p{
+    line-height: 40px;
+}
+
+.hvr:hover{
+    background-color: #fff;
+    color: #a71d2a;
+    transition: 0.5s;
+}
+p#custom:hover{
+    cursor: pointer;
+}
